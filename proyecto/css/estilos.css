@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Righteous&family=Slabo+27px&family=Source+Sans+Pro:wght@300&display=swap');
+html{
+    width: auto;
+    min-width: 100%;    
+}
+body{
+    background:linear-gradient(to right, #3d5a80,#00948d) no-repeat;
+    display: block;
+    width: 100%;
+}
+.contenedor{
+    display:contents;
+    overflow: hidden;
+
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5em;
+    font-family:"aboreto",cursive;
+    color:cornsilk;
+    display:flex;
+    justify-content: center;
+}
+nav{
+    width: 20%;
+    margin: 50px;
+    float: left;
+    display: flow-root;
+       
+}
+nav a{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    font-family:"aboreto",cursive;
+    font-weight: bolder;    
+    background-color: #00a6fb;
+    border-radius: 10px 0 10px 0;
+    color: cornsilk;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+nav a:hover{
+    background-color:cornsilk;
+    color: #00a6fb;
+}
+section{
+    float: left;
+    width: 60%;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+    color: rgb(36, 43, 15);
+    border-radius: 30px 0 30px 0;
+    box-shadow: 1px 0 4px rgba(43, 35, 35, 0.9);
+    display: block;
+}
+section h2{
+
+    font-size: 2em;
+    font-family: "aboreto",cursive;
+    font-weight: bolder;
+}
+
+div p{
+    width:70%;
+    text-align: start;
+    font-size: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+aside{
+    text-transform: capitalize;
+    float: right;
+    width: 30%;
+    margin: 5px;
+    font-style: italic;
+    color: #003554;
+    box-shadow: inset 5px 1px 5px -5px #282325;
+}
+ footer{
+    clear: both;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 500px;
+    border-radius: 25px 0 25px 0;
+    box-shadow: 1px 0 4px rgba(43, 35, 35, 0.9);
+    background-color: #00a6fb;
+    display:block;
+}
+footer nav{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: cornsilk;
+}
